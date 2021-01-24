@@ -123,7 +123,7 @@ export default class DonutChart extends Component {
                   Submit
                 </Button>
               </form>
-              <DataGrid key={ this.state.key } rows={rows} columns={columns} pageSize={8} rowHeight={50} hideFooter={false} />
+              <DataGrid key={ this.state.key } rows={rows} columns={columns} pageSize={6} rowHeight={50} hideFooter={false} />
             </div>
         </div>
       </div>
