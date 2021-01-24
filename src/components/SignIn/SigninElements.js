@@ -100,6 +100,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
+  border-radius: 50px;
   background: #01bf71;
   padding: 16px 0;
   border: none;
@@ -107,11 +108,15 @@ export const FormButton = styled.button`
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #009859;
+    color: #010606;
+  }
 `;
 
 export const FormBtnLink = styled(Link)`
-  border-radius: 50px;
-  background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
@@ -121,12 +126,6 @@ export const FormBtnLink = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
-  }
 `
 
 export const Text = styled.span`

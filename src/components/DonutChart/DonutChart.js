@@ -64,7 +64,7 @@ export default class DonutChart extends Component {
     const { data } = this.state;
 
     return (
-      <div>
+      <div className="bkg">
         <div className="flexbox" style={{display:"flex"}}>
           <div className="header">
             <Doughnut data={data} width={1000} height={1000} key={this.state.key} options={{
