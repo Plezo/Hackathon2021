@@ -8,6 +8,7 @@ import {
   NavbarContainer,
   NavItem,
   NavLinks,
+  NavLinkR,
   NavLogo,
   NavMenu,
   NavBtn,
@@ -70,17 +71,16 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to='/'
-                  onClick={toggleHome}
+                <NavLinkR
+                  to='/signin'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Sign Up
-                </NavLinks>
+                  Manage
+                </NavLinkR>
               </NavItem>
             </NavMenu>
             <NavBtn>

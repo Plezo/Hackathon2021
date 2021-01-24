@@ -71,9 +71,17 @@ export const Form = styled.form`
 `;
 
 export const FormH1 = styled.h1`
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: #fff;
   font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+`;
+
+export const FormP = styled.p`
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 12px;
   font-weight: 400;
   text-align: center;
 `;
