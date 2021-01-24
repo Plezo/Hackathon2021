@@ -42,7 +42,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Services
           </SidebarLink>
           <SidebarLink
-            to='/'
+            to='/signin'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -50,7 +50,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Sign Up
+            Manage
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
