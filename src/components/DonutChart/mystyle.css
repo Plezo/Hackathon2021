@@ -4,7 +4,11 @@
 }
 
 .grid{
-  float:right;
+  float: right;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 50vh;
+  width: 30vw;
 }
 
 .form{
