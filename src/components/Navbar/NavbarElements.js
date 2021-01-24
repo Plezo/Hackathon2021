@@ -36,7 +36,6 @@ export const NavLogo = styled(LinkRouter)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
 `
@@ -61,7 +60,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    padding: 0 200px 0 200px;
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -89,6 +88,7 @@ export const NavLinks = styled(LinkScroll)`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
+    margin-right: 24px;
 
     @media screen and (max-width: 768px) {
         display: none;
