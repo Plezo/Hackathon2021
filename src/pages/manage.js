@@ -1,11 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar'
-import Manage from '../components/Manage'
+import Manage from "../components/Manage"
+import ManageNavbar from '../components/ManageNavbar'
 
 function SigninPage() {
   return (
     <>
-      <Navbar />
+      <ManageNavbar />
+      <Manage />
     </>
   );
 }

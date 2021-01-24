@@ -1,10 +1,12 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import DonutChart from "../DonutChart/DonutChart.js"
 
 export const Manage = () => {
   return (
     <>
-      <Navbar />
+      <DonutChart />
     </>
   )
 }
+
+export default Manage

@@ -1,0 +1,43 @@
+
+.flexbox{
+  justify-content: center;
+}
+
+.grid{
+  float:right;
+}
+
+.form{
+  padding-bottom: 10px;
+}
+
+canvas {
+  width: 50vh;
+  height: 50vh;
+  margin-right: 10vh;
+  margin-top: 15vh;
+}
+
+.title h1{
+  margin-right: 7.5vh;
+  margin-top: 1.5vw;
+  margin-bottom: .5vw;
+  text-align:center;
+}
+
+.MuiFormControl-root,
+.MuiFormLabel-root{
+  padding-top: 2vw !important;
+  padding-left: 1vh !important;
+}
+
+.MuiButtonBase-root {
+  margin-top: 2vw !important;
+  margin-left: 1vh !important;
+}
+
+button{
+  vertical-align: bottom;
+  position: relative !important;
+  vertical-align: bottom !important;
+}
